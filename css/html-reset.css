@@ -25,11 +25,15 @@
  * across different browsers.
  */
 body {
-  font-size: 100%; /* Fixes exaggerated text resizing in IE6 and IE7 */
+  font-size: 100%;
+  background-color:#E7E7E7; /* Fixes exaggerated text resizing in IE6 and IE7 */
 }
 
 #skip-to-nav,
 #page {
+  background-color:white;
+  margin:auto;
+  width:auto;
   /*
    * To use a 12px font size on the page, delete the 14px declarations.
    * to use a 14px font size on the page, delete the 12px declarations.
@@ -110,7 +114,7 @@ fieldset {
 
    */
 
-  font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+  font-family:arial, sans-serif;
 }
 
 pre,

@@ -20,30 +20,37 @@
  * Body
  */
 body {
+  margin:0;
+  width:auto;
 }
 
 #page-wrapper,
 .region-bottom {
+
   /*
    * If you want to make the page a fixed width and centered in the viewport,
    * this is the standards-compliant way to do that. See also the ie6.css file
    * for the necessary IE5/IE6quirks hack to center a div.
    */
-  margin-left: auto;
-  margin-right: auto;
-  width: 960px;
+
 }
 
 #page {
+
 }
 
 /*
  * Header
  */
 #header {
+  background-color:blue;
+  width:auto;
 }
 
 #header .section {
+  width:960px;
+  border:solid red;
+  margin:auto;
 }
 
 .region-header {
@@ -54,9 +61,12 @@ body {
  */
 #main-wrapper {
   position: relative;
+
 }
 
 #main {
+  width:960px;
+  margin:auto;
 }
 
 /*
