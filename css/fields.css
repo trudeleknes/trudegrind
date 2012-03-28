@@ -16,6 +16,11 @@
 .field-type-text-long {
 }
 
+.field-item odd
+  {
+    margin-top:30px;
+  }
+
 .field-type-text-with-summary {
 }
 

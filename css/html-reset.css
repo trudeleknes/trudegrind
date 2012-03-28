@@ -31,7 +31,7 @@ body {
 
 #skip-to-nav,
 #page {
-  background-color:white;
+  background-color:#E7E7E7;
   margin:auto;
   width:auto;
   /*
@@ -47,6 +47,8 @@ body {
   font-size: 0.875em; /* 16px x .875 = 14px */
   line-height: 1.5em; /* 14px x 1.5 = 21px */
 }
+
+
 
 /*
  * Instead of relying on the fonts that are available on a user's computer, you

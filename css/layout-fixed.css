@@ -43,13 +43,14 @@ body {
  * Header
  */
 #header {
-  background-color:blue;
+  background-color:#0D141C;
   width:auto;
+  height:200px;
+  background-image:url('../images/logo2.png');
 }
 
 #header .section {
   width:960px;
-  border:solid red;
   margin:auto;
 }
 
@@ -61,7 +62,10 @@ body {
  */
 #main-wrapper {
   position: relative;
-
+  border:solid red;
+  width:960px;
+  margin:auto;
+  background-color:#fff;
 }
 
 #main {
@@ -79,6 +83,7 @@ body {
   margin-left: 0; /* LTR */
   margin-right: -960px; /* LTR */ /* Negative value of #content's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to #content .section. */
+  
 }
 
 .sidebar-first #content {
@@ -91,6 +96,7 @@ body {
   width: 760px;
   margin-left: 0; /* LTR */
   margin-right: -760px; /* LTR */ /* Negative value of #content's width + left margin. */
+  
 }
 
 .two-sidebars #content {
@@ -136,6 +142,7 @@ body {
   margin-left: 0; /* LTR */
   margin-right: -200px; /* LTR */ /* Negative value of .region-sidebar-first's width + left margin. */
   padding: 0; /* DO NOT CHANGE. Add padding or margin to .region-sidebar-first .section. */
+  background-color:#C7C7C7;
 }
 
 .region-sidebar-first .section {
